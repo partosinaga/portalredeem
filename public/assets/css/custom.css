@@ -1,0 +1,74 @@
+.content .container {
+	background-color:white;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.small-padding {
+	padding-top:8px;
+	padding-bottom:8px;
+}
+
+.medium-padding {
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.medium-margin {
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+.large-margin {
+	margin-top:64px;
+	margin-bottom:64px;
+}
+
+.voucher-card .card-body {
+	padding:8px!important;
+}
+
+.card-header {
+	position:relative;
+}
+
+.voucher-detail {
+	background-color:#004D9A;
+	color:white;
+	display:none;
+	position:absolute;
+	padding:5px 8px;
+	left:0;
+	bottom:0;
+	cursor:pointer;
+}
+
+.card-header:hover > .voucher-detail {
+	display:block;
+}
+
+.voucher-wrapper:hover,.voucher-wrapper.selected {
+	border:2px solid #004D9A;
+}
+
+.text-blue {
+	color:#004D9A;
+}
+
+.voucher-image {
+	position:relative;
+
+}
+.voucher-image:hover > .voucher-detail {
+	display:block;
+}
+
+
+.card-image{
+	min-height: 250px; 
+	max-height: 250px
+}
+
+.voucher-title:hover{
+	color:black;
+}
